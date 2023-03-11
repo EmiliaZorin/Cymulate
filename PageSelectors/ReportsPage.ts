@@ -1,0 +1,18 @@
+export const selectorsOfReportPage = {
+  mainPage: 'div[class=" main page fullscreen"]',
+  attackBlockWaf: 'div[data-module="waf"]',
+  reportButton: 'div[class="btn-cymulate "]',
+  tableRow: 'div[class="table-row"]',
+  tableBody: 'div[class="table-body"]',
+  reportSidebar: 'div[class="report-sidebar report-block"]',
+  summeryData: 'div[class="summary-data"]',
+  assesmentStatus: 'span[data-for="assessment_status"]',
+  assesmentScore: 'div[class="score-text"]',
+  pdfButton: 'button.btn.btn-cymulate.report-pop-up',
+  downloadManagerButton: 'span[data-cymulate-icon-name="download"]',
+  downloadedReport: 'div[class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"]',
+  downloadButton: 'button[test-id="download"]',
+  cymulateButton: 'button[class="btn cymulate-btn btn-margin"]',
+  notificationPopup: 'div[class="notification-container--bottom-right"]',
+  reportDateInfo: 'span[class="Text__StyledSpan-sc-a1dltl-1 xWrEU"]',
+};
